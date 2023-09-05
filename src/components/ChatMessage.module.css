@@ -1,0 +1,29 @@
+.message {
+    display: flex;
+    flex-direction: column;
+}
+
+.me {
+    align-items: flex-end;
+}
+
+.other {
+    align-items: flex-start;
+}
+
+.message-content {
+    border-radius: 2rem;
+    min-width: 15vw;
+    max-width: 40vw;
+    background-color: aqua;
+    padding: 0.5rem;
+    font-size: x-large;
+}
+
+.message-metadata {
+    display: flex;
+    flex-direction: row;
+    gap: 0.4rem;
+    text-transform: capitalize;
+    font-size: small;
+}

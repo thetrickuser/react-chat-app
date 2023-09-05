@@ -1,0 +1,30 @@
+.App {
+    margin: auto;
+    width: 50vw;
+    height: 75vh;
+    text-align: center;
+}
+
+.join-chat {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    width: 25vw;
+    margin: auto;
+    margin-top: 25vh;
+}
+
+.join-chat input {
+    width: 10vw;
+    margin: auto;
+    font-size: larger;
+    border: none;
+    border-bottom: 1px solid grey;
+
+}
+
+.join-chat button {
+    width: 10vw;
+    margin: auto;
+    font-size: larger;
+}
